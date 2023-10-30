@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/camara_dos_deputados_db
+        username: root
+        password: alunoinfo
+    jpa:
+        hibernate:
+            ddl-auto: update
